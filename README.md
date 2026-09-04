@@ -7,8 +7,8 @@
 [![Org](https://img.shields.io/badge/Organizaci%C3%B3n-Spin%20by%20OXXO%20%7C%20FEMSA%20Digital-EE0000?style=for-the-badge)](https://spinbyoxxo.com.mx/)
 [![Legal](https://img.shields.io/badge/Marco%20Legal-Spin%20T%26C%20%2F%20LFPIORPI-0052CC?style=for-the-badge)](https://spinbyoxxo.com.mx/terminos-y-condiciones/)
 [![SQL](https://img.shields.io/badge/SQL-Modelo%20Relacional%203FN-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)](./Modelo_Relacional_Spin.sql)
-[![Python](https://img.shields.io/badge/Python-ETL%20Pipeline-3776AB?style=for-the-badge&logo=python&logoColor=white)](./ETL_Limpieza_LFPIORPI.py)
-[![Colab](https://img.shields.io/badge/Notebook-Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](TU_ENLACE_DE_COLAB_AQUI)
+[![Python](https://img.shields.io/badge/Notebook-Jupyter%20%2F%20Colab-3776AB?style=for-the-badge&logo=python&logoColor=white)](./borrador-2.ipynb)
+[![Dataset](https://img.shields.io/badge/Data-CSV%20Limpio-239120?style=for-the-badge&logo=apachespark&logoColor=white)](./Base_Operaciones_Credito_TEC_Limpia.csv)
 
 ---
 
