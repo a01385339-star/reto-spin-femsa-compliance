@@ -14,12 +14,12 @@
 
 | Campo | Detalle |
 |---|---|
-| 👩‍💻 **Autora** | Laura Elena Mata Serrato |
-| 🎓 **Programa** | Licenciatura en Inteligencia de Negocios |
-| 🏛️ **Institución** | Tecnológico de Monterrey |
-| 🏢 **Organización Caso de Estudio** | Spin by OXXO / FEMSA Digital |
-| 📅 **Fecha** | Septiembre 2026 |
-| 📌 **Estatus** | Repositorio Técnico y Metodológico  |
+|  **Autora** | Laura Elena Mata Serrato |
+|  **Programa** | Licenciatura en Inteligencia de Negocios |
+|  **Institución** | Tecnológico de Monterrey |
+|  **Organización Caso de Estudio** | Spin by OXXO / FEMSA Digital |
+|  **Fecha** | Septiembre 2026 |
+|  **Estatus** | Repositorio Técnico y Metodológico  |
 
 </div>
 
@@ -40,7 +40,7 @@ Spin Crédito presta dinero a sus usuarios de manera digital. Ante la legislaci�
 Si un usuario acumula préstamos por un monto igual o superior a **1,605 UMAs en un periodo de hasta 6 meses (180 días naturales)**, Spin tiene la obligación de presentar un aviso formal ante el SAT a más tardar el **día 17 del mes inmediato siguiente** a aquel en que se rebasó dicho monto.
 
 ### 1.3 El Riesgo de Evaluar Crédito por Crédito
-Evaluar cada solicitud de forma aislada genera una ceguera operativa grave: un cliente que solicita microcréditos recurrentes ("créditos hormiga") no parece sospechoso en transacciones individuales, pero la suma acumulada dentro del periodo de 180 días supera el umbral legal. Sin un algoritmo con memoria histórica retrospectiva, la empresa comete omisión involuntaria de avisos.
+Evaluar cada solicitud de forma aislada genera una ceguera operativa grave: un cliente que solicita microcréditos recurrentes no parece sospechoso en transacciones individuales, pero la suma acumulada dentro del periodo de 180 días supera el umbral legal. Sin un algoritmo con memoria histórica retrospectiva, la empresa comete omisión involuntaria de avisos.
 
 ### 1.4 Actualización y Temporalidad de la UMA
 El umbral no está fijado en pesos sino en UMAs (Unidades de Medida y Actualización), cuyo valor diario oficial es actualizado cada año por el INEGI:
