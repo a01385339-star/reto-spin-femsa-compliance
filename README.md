@@ -14,8 +14,7 @@
 
 | Campo | Detalle |
 |---|---|
-|  **Autora** | Laura Elena Mata Serrato |
-|  **Programa** | Licenciatura en Inteligencia de Negocios |
+|  **Estudiante** | Laura Elena Mata Serrato |
 |  **Institución** | Tecnológico de Monterrey |
 |  **Organización Caso de Estudio** | Spin by OXXO / FEMSA Digital |
 |  **Fecha** | Septiembre 2026 |
