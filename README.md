@@ -332,11 +332,11 @@ df.to_csv('Base_Operaciones_Credito_TEC_Limpia.csv', index=False, encoding='utf-
 print("Pipeline finalizado con éxito.")
 
 ### 3.4 Resultados Numéricos del Procesamiento
-- 🟢 **Verde (< 50% del umbral):** 9,993 operaciones en rango normal[cite: 3].
-- 🔴 **Rojo (≥ 1,605 UMAs):** 11 operaciones que obligan a presentar aviso formal ante el SAT[cite: 3].
-- 🟠 **Naranja (80% a 99.9%):** 3 operaciones en nivel crítico cercano al tope[cite: 3].
-- 🟡 **Amarillo (50% a 79.9%):** 2 operaciones en seguimiento preventivo[cite: 3].
-- ⚪ **Gris (Auditoría):** 2 registros nulos aislados con etiqueta de inconsistencia técnica[cite: 3].
+- 🟢 **Verde (< 50% del umbral):** 9,993 operaciones en rango normal.
+- 🔴 **Rojo (≥ 1,605 UMAs):** 11 operaciones que obligan a presentar aviso formal ante el SAT.
+- 🟠 **Naranja (80% a 99.9%):** 3 operaciones en nivel crítico cercano al tope.
+- 🟡 **Amarillo (50% a 79.9%):** 2 operaciones en seguimiento preventivo.
+- ⚪ **Gris (Auditoría):** 2 registros nulos aislados con etiqueta de inconsistencia técnica[.
 
 ---
 
@@ -345,13 +345,13 @@ print("Pipeline finalizado con éxito.")
 Como parte de la visión integral del proyecto y su futura transición hacia un entorno productivo formal dentro de FEMSA Digital, se definieron los siguientes requerimientos de seguridad, conectividad y gobernanza de datos. Dado que la configuración avanzada de servidores, arquitecturas seguras y encriptación no forman parte del contenido habitual visto en clase, **nos apoyaremos en herramientas de Inteligencia Artificial como asistente técnico y de investigación** para guiar el diseño y la implementación de estas mejores prácticas:
 
 - **Conectividad Segura y Cifrado en Tránsito (En Desarrollo con Apoyo de IA):**  
-  Buscamos establecer el enlace directo entre el script de Python y SQL Server mediante librerías como `SQLAlchemy` y `ODBC Driver 18 for SQL Server`[cite: 3]. Con la guía de IA, estructuraremos cadenas de conexión que fuercen parámetros de cifrado en tránsito (`Encrypt=yes; TrustServerCertificate=no;`) para proteger las credenciales y asegurar que los datos viajen protegidos contra intercepciones en la red corporativa[cite: 3].
+  Buscamos establecer el enlace directo entre el script de Python y SQL Server mediante librerías como `SQLAlchemy` y `ODBC Driver 18 for SQL Server`. Con la guía de IA, estructuraremos cadenas de conexión que fuercen parámetros de cifrado en tránsito (`Encrypt=yes; TrustServerCertificate=no;`) para proteger las credenciales y asegurar que los datos viajen protegidos contra intercepciones en la red corporativa.
 
 - **Control de Acceso Basado en Roles / RBAC (Fase Propuesta con Soporte de IA):**  
-  Con el objetivo de restringir la visibilidad de información confidencial de prevención de lavado de dinero, utilizaremos IA para ayudarnos a formular los scripts de permisos y roles en el motor de base de datos[cite: 3]:
-  * **Mesa de Crédito / Operaciones:** Tendrá permisos limitados exclusivamente a la lectura de datos comerciales en `Fact_Creditos`[cite: 3].
-  * **Oficial de Cumplimiento / AML:** Contará con acceso exclusivo a la tabla `Fact_Auditoria_LFPIORPI` para gestionar las alertas regulatorias y preparar los avisos obligatorios ante el SAT[cite: 3].
-  * **Analistas de BI:** Acceso controlado a vistas analíticas agregadas sin exposición de folios auditados en crudo[cite: 3].
+  Con el objetivo de restringir la visibilidad de información confidencial de prevención de lavado de dinero, utilizaremos IA para ayudarnos a formular los scripts de permisos y roles en el motor de base de datos:
+  * **Mesa de Crédito / Operaciones:** Tendrá permisos limitados exclusivamente a la lectura de datos comerciales en `Fact_Creditos`.
+  * **Oficial de Cumplimiento / AML:** Contará con acceso exclusivo a la tabla `Fact_Auditoria_LFPIORPI` para gestionar las alertas regulatorias y preparar los avisos obligatorios ante el SAT.
+  * **Analistas de BI:** Acceso controlado a vistas analíticas agregadas sin exposición de folios auditados en crudo.
 
 - **Privacidad y Cumplimiento LFPDPPP (Propuesta de Anonimización asistida por IA):**  
-  Para alinearnos a la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP), el objetivo es construir, con apoyo de IA, una función de anonimización criptográfica[cite: 3]. La intención es reemplazar identificadores directos (como `RFC` y `Nombre_Cliente`) por resúmenes criptográficos irreversibles (`SHA-256` con salt) al generar ambientes de prueba o analíticos, protegiendo la identidad real de los titulares de las cuentas[cite: 3].
+  Para alinearnos a la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP), el objetivo es construir, con apoyo de IA, una función de anonimización criptográfica. La intención es reemplazar identificadores directos (como `RFC` y `Nombre_Cliente`) por resúmenes criptográficos irreversibles (`SHA-256` con salt) al generar ambientes de prueba o analíticos, protegiendo la identidad real de los titulares de las cuentas.
